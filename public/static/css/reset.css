@@ -1,0 +1,80 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+caption{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+input:-webkit-autofill,textarea:-webkit-autofill,input[type=text]:focus, input[type=password]:focus, textarea:focus {
+    -webkit-box-shadow: 0 0 0 1000px white inset;
+}
+html,body{
+    height: 100%;
+    font-family: '微软雅黑';
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*element弹框的样式*/
+.el-dialog__footer{text-align: center}
+.el-form-item__label{font-size: 12px}
+.el-input__inner{width: 185px!important;}
+.el-date-editor.el-input, .el-date-editor.el-input__inner{width: 185px!important;}
+.el-input-number--mini{width: 185px!important;}
+.el-dialog{margin-top: 2.5vh!important;height: 95%;overflow-y: scroll;margin-bottom: 0}
+.default_pagination{margin-top: 15px;text-align: left}
+.default_pagination .el-input-number--mini{width: 100%!important}
+.default_pagination .el-input__inner{width: 100%!important}
+.default_input .el-input__inner{width: 100%!important}
+.default_input .el-input-number--mini{width: 100%!important}
+.el-date-picker__editor-wrap .el-input__inner{width: 100%!important}
+.fieldWrap{border: solid 1px #ccc; border-radius: 5px; padding: 15px 20px 5px 20px;margin-bottom: 15px}
+.fieldFoot{padding-bottom: 15px;border-radius: 0px}
+.fieldFoot button{margin-bottom: 15px}
+.fieldWrap legend{color: #5299ff;font-weight: bolder;font-size: 13px}
+
+.el-popover{min-width: 130px}
